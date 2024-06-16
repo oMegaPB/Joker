@@ -1,0 +1,4 @@
+#include "resource.h"
+
+JOKER_GIF RCDATA "joker.gif"
+JOKER_SOUND RCDATA "jokersound.wav"

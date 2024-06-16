@@ -1,0 +1,2 @@
+windres resource.rc -O coff -o resource.res.o
+g++ joker.cpp resource.res.o -o joker.exe -lgdi32 -lgdiplus -lstdc++ -lole32 -lwinmm
